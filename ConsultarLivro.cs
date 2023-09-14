@@ -23,18 +23,18 @@ namespace Acesso_a_BD
                 //Criar o DataReader:
                 SqlDataReader drDados = null;
 
-                //Executar a consulta no banco de dados:
+                //Executar a consulta no banco de dados: Traz os dados do banco
                 drDados = comando.ExecuteReader();
 
                 if (drDados.HasRows)//Verificar se há linhas retornadas
                 {
-                    while (drDados.Read())
+                    while (drDados.Read())// Verifica as linhas uma de cada vez
                     {
                         //Obter os resultados das colunas 
                         Variaveis.CaixaTxtNomeLivro = (string)drDados["NomeLivro"];
 
                         //Preço do livro é decimal, convertemos e arredondamos 
-                        Variaveis.CaixaTxtPrecoLivro = string.Format("{0:0.00}" drDados["PrecoLivro"]);
+                        Variaveis.CaixaTxtPrecoLivro = string.Format("{0:0.00}",drDados["PrecoLivro"]);
 
                         Variaveis.CaixaTxtDataPub = (DateTime)drDados["DataPub"];
                     }
@@ -44,11 +44,11 @@ namespace Acesso_a_BD
                     MessageBox.Show("Código não encontrado");
                 }
                 drDados.Close();
-                conn.Close();
+                conn.Close(); //Fecha a conexão com o banco de dados
             }
             catch (SqlException s)
             {
-                MessageBox.Show(s.Message);
+                MessageBox.Show(s.Source.ToString());
             }
 
         }
