@@ -70,5 +70,11 @@ namespace Acesso_a_BD
             frmCadastraAutor Tela = new frmCadastraAutor();
             Tela.Show();
         }
+
+        private void editorasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadastrarEditora Tela = new CadastrarEditora();
+            Tela.Show();
+        }
     }
 }

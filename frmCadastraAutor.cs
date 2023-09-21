@@ -27,7 +27,7 @@ namespace Acesso_a_BD
             ComandosDML inserir = new ComandosDML();
             try
             {
-                inserir.iud(sql);
+                inserir.iud(sql); //IUD -- I ->INSERT '' U -> UPDATE '' D -> DELETE
                 MessageBox.Show("Registro inserido com sucesso");
             }
             catch ( SqlException s)

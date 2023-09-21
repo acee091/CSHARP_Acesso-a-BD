@@ -46,6 +46,7 @@
             this.consultarAutorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.autoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editorasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -163,7 +164,8 @@
             // cadastrosToolStripMenuItem
             // 
             this.cadastrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.autoresToolStripMenuItem});
+            this.autoresToolStripMenuItem,
+            this.editorasToolStripMenuItem});
             this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
             this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.cadastrosToolStripMenuItem.Text = "Cadastros";
@@ -196,6 +198,13 @@
             this.autoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.autoresToolStripMenuItem.Text = "Autores";
             this.autoresToolStripMenuItem.Click += new System.EventHandler(this.autoresToolStripMenuItem_Click);
+            // 
+            // editorasToolStripMenuItem
+            // 
+            this.editorasToolStripMenuItem.Name = "editorasToolStripMenuItem";
+            this.editorasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editorasToolStripMenuItem.Text = "Editoras";
+            this.editorasToolStripMenuItem.Click += new System.EventHandler(this.editorasToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -245,6 +254,7 @@
         private System.Windows.Forms.ToolStripMenuItem consultarAutorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem autoresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editorasToolStripMenuItem;
     }
 }
 

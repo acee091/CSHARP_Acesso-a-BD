@@ -38,14 +38,14 @@
             // 
             // txtSobrenomeAutor
             // 
-            this.txtSobrenomeAutor.Location = new System.Drawing.Point(362, 122);
+            this.txtSobrenomeAutor.Location = new System.Drawing.Point(327, 122);
             this.txtSobrenomeAutor.Name = "txtSobrenomeAutor";
             this.txtSobrenomeAutor.Size = new System.Drawing.Size(132, 20);
             this.txtSobrenomeAutor.TabIndex = 0;
             // 
             // txtNomeAutor
             // 
-            this.txtNomeAutor.Location = new System.Drawing.Point(362, 81);
+            this.txtNomeAutor.Location = new System.Drawing.Point(327, 81);
             this.txtNomeAutor.Name = "txtNomeAutor";
             this.txtNomeAutor.Size = new System.Drawing.Size(132, 20);
             this.txtNomeAutor.TabIndex = 1;
@@ -54,7 +54,7 @@
             // 
             this.lblNomeAutor.AutoSize = true;
             this.lblNomeAutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomeAutor.Location = new System.Drawing.Point(215, 77);
+            this.lblNomeAutor.Location = new System.Drawing.Point(180, 77);
             this.lblNomeAutor.Name = "lblNomeAutor";
             this.lblNomeAutor.Size = new System.Drawing.Size(141, 24);
             this.lblNomeAutor.TabIndex = 2;
@@ -64,7 +64,7 @@
             // 
             this.lblSobrenomeAutor.AutoSize = true;
             this.lblSobrenomeAutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSobrenomeAutor.Location = new System.Drawing.Point(167, 117);
+            this.lblSobrenomeAutor.Location = new System.Drawing.Point(132, 117);
             this.lblSobrenomeAutor.Name = "lblSobrenomeAutor";
             this.lblSobrenomeAutor.Size = new System.Drawing.Size(189, 24);
             this.lblSobrenomeAutor.TabIndex = 3;
@@ -75,7 +75,7 @@
             this.lblTexto.AutoSize = true;
             this.lblTexto.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTexto.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.lblTexto.Location = new System.Drawing.Point(89, 33);
+            this.lblTexto.Location = new System.Drawing.Point(58, 30);
             this.lblTexto.Name = "lblTexto";
             this.lblTexto.Size = new System.Drawing.Size(633, 25);
             this.lblTexto.TabIndex = 4;
@@ -84,7 +84,7 @@
             // btnCadastraAutor
             // 
             this.btnCadastraAutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastraAutor.Location = new System.Drawing.Point(352, 167);
+            this.btnCadastraAutor.Location = new System.Drawing.Point(316, 159);
             this.btnCadastraAutor.Name = "btnCadastraAutor";
             this.btnCadastraAutor.Size = new System.Drawing.Size(157, 58);
             this.btnCadastraAutor.TabIndex = 5;
@@ -96,7 +96,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(761, 449);
             this.Controls.Add(this.btnCadastraAutor);
             this.Controls.Add(this.lblTexto);
             this.Controls.Add(this.lblSobrenomeAutor);

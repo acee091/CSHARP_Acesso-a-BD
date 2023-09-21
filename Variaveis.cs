@@ -21,5 +21,7 @@ namespace Acesso_a_BD
 
         public static string CaixatxtSobrenomeAutor { get; set; }
 
+        public static string CaixatxtNomeEditora { get; set; }
+
     }
 }
