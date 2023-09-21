@@ -13,8 +13,8 @@ namespace Acesso_a_BD
 {
     public partial class ConsultarAutor : Form
     {
-        public string consulta;
-        public string sql;
+        public string consulta; 
+        
         public ConsultarAutor()
         {
             InitializeComponent();

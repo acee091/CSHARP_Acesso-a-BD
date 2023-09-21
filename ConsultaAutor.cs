@@ -20,7 +20,7 @@ namespace Acesso_a_BD
 
                 SqlDataReader drDados = null;
 
-                drDados= comando.ExecuteReader();
+                drDados = comando.ExecuteReader();
 
                 if(drDados.HasRows)
                 {

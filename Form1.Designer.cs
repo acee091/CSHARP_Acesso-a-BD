@@ -43,8 +43,9 @@
             this.arquivosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarAutorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.autoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -161,6 +162,8 @@
             // 
             // cadastrosToolStripMenuItem
             // 
+            this.cadastrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.autoresToolStripMenuItem});
             this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
             this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.cadastrosToolStripMenuItem.Text = "Cadastros";
@@ -174,18 +177,25 @@
             this.consultasToolStripMenuItem.Text = "Consultas";
             this.consultasToolStripMenuItem.Click += new System.EventHandler(this.consultasToolStripMenuItem_Click);
             // 
+            // consultarAutorToolStripMenuItem
+            // 
+            this.consultarAutorToolStripMenuItem.Name = "consultarAutorToolStripMenuItem";
+            this.consultarAutorToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.consultarAutorToolStripMenuItem.Text = "Consultar Autor";
+            this.consultarAutorToolStripMenuItem.Click += new System.EventHandler(this.consultarAutorToolStripMenuItem_Click);
+            // 
             // ajudaToolStripMenuItem
             // 
             this.ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
             this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.ajudaToolStripMenuItem.Text = "Ajuda";
             // 
-            // consultarAutorToolStripMenuItem
+            // autoresToolStripMenuItem
             // 
-            this.consultarAutorToolStripMenuItem.Name = "consultarAutorToolStripMenuItem";
-            this.consultarAutorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.consultarAutorToolStripMenuItem.Text = "Consultar Autor";
-            this.consultarAutorToolStripMenuItem.Click += new System.EventHandler(this.consultarAutorToolStripMenuItem_Click);
+            this.autoresToolStripMenuItem.Name = "autoresToolStripMenuItem";
+            this.autoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.autoresToolStripMenuItem.Text = "Autores";
+            this.autoresToolStripMenuItem.Click += new System.EventHandler(this.autoresToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -234,6 +244,7 @@
         private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultarAutorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem autoresToolStripMenuItem;
     }
 }
 

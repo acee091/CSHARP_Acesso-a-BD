@@ -64,5 +64,11 @@ namespace Acesso_a_BD
             ConsultarAutor Tela = new ConsultarAutor();
             Tela.Show();
         }
+
+        private void autoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastraAutor Tela = new frmCadastraAutor();
+            Tela.Show();
+        }
     }
 }
